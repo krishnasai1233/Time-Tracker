@@ -1,0 +1,170 @@
+/* CSS/AssociateDashboard.css */
+
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.main {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 90%;
+}
+
+/* Employee section */
+.employee {
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.employee .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.employee .empn {
+    font-size: 20px;
+    color: #444;
+}
+
+.employee .namee {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.employee .empid {
+    font-size: 16px;
+    color: #666;
+}
+
+.employee .logout {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.employee .logout:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 16px;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.adt {
+    background: #3498db;
+}
+
+.adt:hover {
+    background: #2980b9;
+}
+
+.add-task {
+    background: #2ecc71;
+}
+
+.add-task:hover {
+    background: #27ae60;
+}
+
+/* Project and task sections */
+.project {
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.project .projn {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tasko {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: normal;
+}
+
+.taskso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+}
+
+.task-1 {
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: #ddd;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-header div {
+    flex: 1;
+    text-align: center;
+}

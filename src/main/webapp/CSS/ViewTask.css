@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* General body styling */
+body {
+    background-color: #2c2c2c; /* Dark gray background for less strain than black */
+    color: #f0f0f0; /* Light text color for contrast */
+    margin: 2%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container styling */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #3c3c3c; /* Slightly lighter gray for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.title h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #e0e0e0; /* Light gray color */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #444; /* Darker header background */
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+    color: #f0f0f0; /* Light text color */
+    font-size: 1.1em;
+    border-bottom: 2px solid #555;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+tr:nth-child(even) {
+    background-color: #3c3c3c; /* Alternating row colors for readability */
+}
+
+tr:hover {
+    background-color: #555; /* Highlight row on hover */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form styling inside the table */
+form {
+    display: inline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    .title h1 {
+        font-size: 2em;
+    }
+}
