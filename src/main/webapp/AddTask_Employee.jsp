@@ -91,7 +91,7 @@
                 </div>
             </form>
             
-            <a href="AdminDashboard.jsp">Back to Dashboard</a>
+            <a href="AssociateDashboard.jsp">Back to Dashboard</a>
         </div>
     </div>
     

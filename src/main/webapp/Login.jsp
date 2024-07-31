@@ -23,7 +23,6 @@
             <input required="" class="input" type="password" name="password"/>
             <label class="label" for="input">Enter Password</label>
         </div>
-        <a class="forgorp" href="" >Forgot your password?</a>
         <button class="submit-btn" type="submit">Login</button>
     </form>
     
